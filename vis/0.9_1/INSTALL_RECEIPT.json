@@ -1,0 +1,80 @@
+{
+  "homebrew_version": "7.0.7",
+  "used_options": [],
+  "unused_options": [],
+  "built_as_bottle": false,
+  "poured_from_bottle": false,
+  "loaded_from_api": false,
+  "loaded_from_internal_api": false,
+  "installed_on_request": true,
+  "changed_files": null,
+  "time": 1791163995,
+  "source_modified_time": 1714592958,
+  "compiler": "clang",
+  "aliases": [],
+  "runtime_dependencies": [
+    {
+      "full_name": "unibilium",
+      "version": "2.1.4",
+      "revision": 0,
+      "bottle_rebuild": 0,
+      "pkg_version": "2.1.4",
+      "declared_directly": false
+    },
+    {
+      "full_name": "libtermkey",
+      "version": "0.22",
+      "revision": 0,
+      "bottle_rebuild": 1,
+      "pkg_version": "0.22",
+      "declared_directly": true
+    },
+    {
+      "full_name": "lpeg",
+      "version": "1.1.0",
+      "revision": 2,
+      "bottle_rebuild": 0,
+      "pkg_version": "1.1.0_2",
+      "declared_directly": true,
+      "compatibility_version": 1
+    },
+    {
+      "full_name": "lua",
+      "version": "5.5.1",
+      "revision": 0,
+      "bottle_rebuild": 0,
+      "pkg_version": "5.5.1",
+      "declared_directly": true,
+      "compatibility_version": 1
+    },
+    {
+      "full_name": "tre",
+      "version": "0.9.0",
+      "revision": 0,
+      "bottle_rebuild": 0,
+      "pkg_version": "0.9.0",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "tap": "homebrew/core",
+    "tap_git_head": "def692a6adf4bf672631a0c3abee279633a8772f",
+    "spec": "stable",
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/v/vis.rb",
+    "versions": {
+      "stable": "0.9",
+      "head": "HEAD",
+      "version_scheme": 0,
+      "compatibility_version": null
+    }
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 26",
+    "cpu_family": "arm_firestorm_icestorm",
+    "xcode": "27.0",
+    "clt": "27.0.0.0.1788430756",
+    "preferred_perl": "5.34"
+  }
+}

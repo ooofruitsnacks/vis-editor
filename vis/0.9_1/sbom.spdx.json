@@ -1,0 +1,271 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-vis-0.9",
+  "creationInfo": {
+    "created": "2024-05-01T19:49:18Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/vis-0.9.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-vis-src",
+    "SPDXRef-Patch-vis-0",
+    "SPDXRef-Package-SPDXRef-unibilium-2.1.4",
+    "SPDXRef-Package-SPDXRef-libtermkey-0.22",
+    "SPDXRef-Package-SPDXRef-lpeg-1.1.0_2",
+    "SPDXRef-Package-SPDXRef-lua-5.5.1",
+    "SPDXRef-Package-SPDXRef-tre-0.9.0",
+    "SPDXRef-Compiler",
+    "SPDXRef-Bottle-vis"
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-File-vis",
+      "fileName": "v0.9.tar.gz",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bd37ffba5535e665c1e883c25ba5f4e3307569b6d392c60f3c7d5dedd2efcfca"
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-vis-src",
+      "name": "vis",
+      "versionInfo": "0.9",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-05-01T19:49:18Z",
+      "licenseConcluded": "ISC",
+      "downloadLocation": "https://github.com/martanne/vis/archive/refs/tags/v0.9.tar.gz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/vis@0.9",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bd37ffba5535e665c1e883c25ba5f4e3307569b6d392c60f3c7d5dedd2efcfca"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Patch-vis-0",
+      "name": "vis patch 0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "https://src.fedoraproject.org/rpms/vis/raw/bb0fc38581783fed74ead453dc216d17fbf551e4/f/vis-0.9-lua-5.5.patch",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "300bbabe3c149e94c5e5c64622087d40d2ce8c2f4cf2146e8f3e5a6d672fdae2"
+        }
+      ],
+      "externalRefs": []
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-unibilium-2.1.4",
+      "name": "unibilium",
+      "versionInfo": "2.1.4",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "LGPL-3.0-or-later",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/unibilium/blobs/sha256:236da70149748828b1b4835aceb4800717b8ec79d8f4735d0c0991b0f2a2c996",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "236da70149748828b1b4835aceb4800717b8ec79d8f4735d0c0991b0f2a2c996"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/unibilium@2.1.4",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-libtermkey-0.22",
+      "name": "libtermkey",
+      "versionInfo": "0.22",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/libtermkey/blobs/sha256:3f3b0155836ea23f051a5b94c6129d6ed1927f9daea716e1f72634470c7557b7",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3f3b0155836ea23f051a5b94c6129d6ed1927f9daea716e1f72634470c7557b7"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/libtermkey@0.22",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-lpeg-1.1.0_2",
+      "name": "lpeg",
+      "versionInfo": "1.1.0_2",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/lpeg/blobs/sha256:f3ef5600e2a654aea26c48469ab8ffee9fe117c71fe4d617646939b0f74059bd",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f3ef5600e2a654aea26c48469ab8ffee9fe117c71fe4d617646939b0f74059bd"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/lpeg@1.1.0_2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-lua-5.5.1",
+      "name": "lua",
+      "versionInfo": "5.5.1",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:494c75d37ed889cd4deaf7cb40613e8ba2206b53af68a5ab3d47167c22138b50",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "494c75d37ed889cd4deaf7cb40613e8ba2206b53af68a5ab3d47167c22138b50"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/lua@5.5.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-tre-0.9.0",
+      "name": "tre",
+      "versionInfo": "0.9.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "BSD-2-Clause",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/tre/blobs/sha256:0046ebce7ba173f666176e93abbb6d2079677d02e584f097d97f923d0c0ff0a3",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0046ebce7ba173f666176e93abbb6d2079677d02e584f097d97f923d0c0ff0a3"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/tre@0.9.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "clang",
+      "versionInfo": "27.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [],
+      "externalRefs": []
+    },
+    {
+      "SPDXID": "SPDXRef-Bottle-vis",
+      "name": "vis",
+      "versionInfo": "0.9",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-05-01T19:49:18Z",
+      "licenseConcluded": "ISC",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/vis/blobs/sha256:97ddde56165642945938829637059178f29af95c72a5482bb9a7272c626c61dc",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/vis@0.9",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "97ddde56165642945938829637059178f29af95c72a5482bb9a7272c626c61dc"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-unibilium-2.1.4",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-vis"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-libtermkey-0.22",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-vis"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-lpeg-1.1.0_2",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-vis"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-lua-5.5.1",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-vis"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-tre-0.9.0",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-vis"
+    },
+    {
+      "spdxElementId": "SPDXRef-Patch-vis-0",
+      "relationshipType": "PATCH_APPLIED",
+      "relatedSpdxElement": "SPDXRef-Archive-vis-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-vis",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-vis-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-vis-src"
+    }
+  ]
+}
