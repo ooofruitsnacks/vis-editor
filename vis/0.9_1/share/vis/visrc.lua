@@ -1,5 +1,9 @@
 -- load standard vis module, providing parts of the Lua API
 require('vis')
+-- Automatically use the Odin lexer for .odin files.
+vis.ftdetect.filetypes.odin = {
+  ext = { '%.odin$' },
+  }
 
 vis.events.subscribe(vis.events.INIT, function()
 	-- Your global configuration options
